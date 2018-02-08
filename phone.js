@@ -83,22 +83,21 @@ endY= 0;
 $("#gesture_area").mousedown(function(event) {
   endX = event.pageX;
   endY = event.PageY;
-  $("#gesture_output").text("mouse up")
+  $("#gesture_output").text("mouse down")
+});
 
-
-$("#gesture_area").mousedown(function(event) {
+$("#gesture_area").mouseup(function(event) {
   startX = event.pageX;
   startY = event.PageY;
-  $("#gesture_output").text("mouse down")
+  $("#gesture_output").text("mouse up")
 
 
 
 if (endX > startX) {
-  $("#gesture_output").text("swipe right");
+  $("#gesture_output").text("swip left");
 }
 if(endX < startX){
-  $("#gesture_output").text("swipe left");
+  $("#gesture_output").text("swipe right");
 }
 
-});
 });
