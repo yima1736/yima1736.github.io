@@ -1,104 +1,85 @@
-<html>
- <head>
- <title> XXXphone contact </title>
- <link rel="stylesheet" href="phone.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
- </head>
-<body>
 
+<!-- saved from url=(0071)https://shaunkane.github.io/csci4849-spring2018/solutions/a4/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script language="javascript">
 
-  <div id="tab_bar">
+</script>
 
-  <button class=<"aaa" id="dialer"/> Dialer </button>
-  <button class=<"bbb" id="add"/>Add Contact</button>
-  <button class=<"ccc" id="list"/>Contact List </button>
-  <button class=<"ddd" id="gestures"/> Test Gestures </button>
-  </div>
-  <p>
-  </p>
+		<title>My Blog</title>
+		<style>
+			body { font-family:  margin: 20px; }
+			#alert { border: 3px solid yellow; background: red; padding: 5px; display: none;}
+		</style>
+	</head>
+	<body>
+		<div role="navigation">
 
+			<h1>Menu</h1>
 
-  <div id="content">
-  <div id="content_dialer">
+			<ul>
+				<li><a href="https://github.com/yima1736/yima1736.github.io">Website</a></li>
+				<li><a href="http://www.baidu.com/">Search</a></li>
 
+			</ul>
+		</div>
 
-      <h1>Dialer</h1> <p> <input type="text" id= "phone_number"> </p>
-      <p>
-      </p>
-      <p>
-      </p>
-    <div id = "row1">
-      <button class=<"key" id="n1"/> 1 </button>
-      <button class=<"key" id="n2"/> 2 </button>
-      <button class=<"key" id="n3"/> 3 </button>
-    </div>
-    <div id="row2">
-      <button class=<"key" id="n4"/> 4 </button>
-      <button class=<"key" id="n5"/> 5 </button>
-      <button class=<"key" id="n6"/> 6 </button>
-    </div>
-    <div id="row3">
-      <button class=<"key" id="n7"/> 7 </button>
-      <button class=<"key" id="n8"/> 8 </button>
-      <button class=<"key" id="n9"/> 9 </button>
-    </div>
-    <div id="row4">
-      <button class=<"key" id="n10"/> * </button>
-      <button class=<"key" id="n0"/> 0 </button>
-      <button class=<"key" id="n11"/> # </button>
-    </div>
-    <div id="row5">
-      <button class=<"key" id="nDial"/> Dial </button>
+		<div role="main">
+			<h1>One Of My Story</h1>
+			<p>
+			<body>
+			 		 	When I was in middle school, I have some best friends. We alwasys <br />
+						go out on friday night and have fun together during the weekend.<br />
+						As time goes by, we go to high school but we are not in the same high school.<br />
+						The connection between us is getting less and less.<br />
+						Druing the high school, we can meet each other once in a few months.<br />
+						But I never think that the brotherhood between us are decreased.<br />
+						Now, I study in the United States, all of my best friends are in China.<br />
+						We can hardly meet maybe 1 or 2 years.
+						But everytime I go back to my hometown,<br />
+						we always hungout just like what we do in the middle school. I really miss my best friedns.<br />
+				   <p>
+					</p>
+					  Next year, one of my best firend is going to get married with his lover,
+						 we really feel happy for him. <br />
+						 I told them this winter holiday that I will come to the wedding ceremony no matter how busy I am.<br />
+					   It seems all of my best friends have their girlfriends, I really feel happy for them.<br />
+						 And also, I think I need to work hard to find my girlfriend. LOL.
+			</body>
+		  </p>
+			<h1>Photo</h1>
+			<p>
+			</p>
 
-      <input type = "button" id= "nClear" value="Clear" onclick="document.getElementById('phone_number').value='';"/>
-    </div>
+			<p><img src="/A4/admiral.jpg" alt="My best friends." width="500" height="370"></p>
+			<p>Image credit: <a href="">Yi Man</a>.</p>
 
+			<h1>Comments</h1>
+			<div role="alert" id="alert">Sorry! Comment is not working.</div>
+			<div>
+				<p><label for="name">
+					Your name:
+				</label>
+				<input id="name"></p>
 
+				<p><label for="email">
+					Your email address:
+				</label>
+				<input id="email"></p>
 
-</div>
-  <div id="add_contact">
-    <h1> Add Contact </h1>
-    <form>
-      Name:  <p>  <input type="text" id= "111" placeholder= "Yi Man"> </p>
-      Phone number : <p> <input type"number" id="222"> </p>
-      Email address: <p> <input type"address" id="333"> </p>
-</form>
+				<p><label for"number">
+					Phone Number:
+				</label>
+				<input id="phone"></p>
 
-    <button class=<"but" id="nAdd_contact"/> Add Contact </button>
+				<p><label for="comments">
+					Your comment:
+				</label>
+				<input id="comments"></p>
+				<p><button id="commentButton">Submit comment</button></p>
 
-    <input type = "button" id= "nClear" value="Clear" onclick="document.getElementById('111').value='';"/>
+			</div>
+		</div>
+	<script src="./My Blog_files/jquery.min.js.下载"></script>
+	<script src="./My Blog_files/blog.js.下载"></script>
 
-
-</div>
-  <div id="contact_list">
-  <!--  <meta charset="utf -8">
-    <iframe name1 width ="100" height="100" frame border ="0">
-    </iframe>
-  -->
-  <h1> Contact List </h1>
-    <button class=<"name" id="name1"/> Yi Man </button>
-    <button class=<"name" id="name2"/> Robort Drake </button>
-    <button class=<"name" id="name3"/> Emma Frost </button>
-    </div>
-
-
-  <div id="tges">
-  <div class=<"ges" id="ges1">
-    <h1> Gesture Practice </h1>
-</div>
-  <div class= "output" id="gesture_output">
-  </div>
-  <div class= "area" id="gesture_area">
-  </div>
-</div>
-
-
-</div>
-
-
-
-
-<script src="phone.js"></script>
- </body>
+</body>
 </html>
