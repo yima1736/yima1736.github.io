@@ -20,9 +20,9 @@ body {background-color: black; color: white;}
 
 /*add_contact*/
 #nAdd_contact{width:200px; height:80px;border-style: solid; margin:10px; font-size: 170%; background: black; color: white;}
-#a111 { font-size: 200%; width: 300px;}
-#a222 { font-size: 200%; width: 300px;}
-#a333 { font-size: 200%; width: 300px;}
+#a111 { font-size: 200%; width: 300px; background: black; color: white;}
+#a222 { font-size: 200%; width: 300px; background: black; color: white;}
+#a333 { font-size: 200%; width: 300px; background: black; color: white;}
 /*dialer*/
 #n1{width:100px; height:80px;border-style: solid; margin:10px; font-size: 170%;}
 #n2{width:100px; height:80px;border-style: solid; margin:10px; font-size: 170%;}
@@ -46,6 +46,6 @@ body {background-color: black; color: white;}
 
 #lowVision {margin-top: 20px;}
 
-#phone_number { font-size: 200%;}
+#phone_number { font-size: 200%; background: black; color: white;}
 
 #about {font-size: 150%;}
